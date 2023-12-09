@@ -8,5 +8,3 @@
 export const number = (value: number, unit: number) => {
   return value * unit;
 };
-
-};
