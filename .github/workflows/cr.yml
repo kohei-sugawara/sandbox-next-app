@@ -20,5 +20,11 @@ jobs:
           LANGUAGE: Japanese # 言語
           OPENAI_API_ENDPOINT: https://api.openai.com/v1
           MODEL: gpt-3.5-turbo # 使用するモデル
+          PROMPT: '以下のフォーマットに日本語で沿ってレビューをしてください。
+            【要約】
+            - リスト形式でこのコードの要約を書いてください。
+            【レビュー内容】
+            - リスト形式で箇条書きで書いてください。
+            '
           top_p: 1
           temperature: 1
