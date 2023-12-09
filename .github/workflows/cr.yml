@@ -19,6 +19,6 @@ jobs:
           # Optional
           LANGUAGE: Japanese # 言語
           OPENAI_API_ENDPOINT: https://api.openai.com/v1
-          MODEL: gpt-4 # 使用するモデル
+          MODEL: gpt-3.5-turbo # 使用するモデル
           top_p: 1
           temperature: 1
